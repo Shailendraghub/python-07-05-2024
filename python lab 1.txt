@@ -1,0 +1,67 @@
+1) 1. Input your name into a variable called $name and then print "Hello, <your name here>".
+
+x=input("your name here")
+print(f"hello, {x}")
+
+o/p
+
+your name here Shailendra Agarwal
+hello, Shailendra Agarwal
+
+................................................................................
+2) 2. Write a program that adds two numbers and then prints out whether the sum of those two numbers
+is positive or negative.
+
+add1=int(input("enter value:"))
+add2=int(input(" enter value:"))
+add=add1+add2
+print(add)
+if add>=0:
+    print("positive")
+else:
+    print("negative")
+
+................................................................................
+
+
+4. Input your first name and last name as two separate variables, labeled as $firstname and $lastname
+respectively. Concatenate them together using the dot operator '.' into a new variable called
+$wholename. Then print out the $wholename.
+
+
+add1=input("Firstname :")
+add2=input("Lastname:")
+sum=add1+add2
+print("wholename:" ,sum)
+
+
+
+............................................................................
+5. Write a program to accept an input string from the user and toggle the character cases.
+For example, $str=” Hello How Are You?”
+O/p : hELLO hOW aRE yOU
+
+
+x=input("your string: ")
+print(x.swapcase())
+.........................................................................
+
+6. Write a program which will perform sum and multiplication ,that sums and multiplies
+(respectively) all the numbers in a list of numbers. For example, sum([1, 2, 3, 4]) should return 10,
+and multiply([1, 2, 3, 4]) should return 24.
+
+
+mylist=[1,2,3,4,5]
+sum=0
+x=1
+for i in mylist:
+    sum=sum+i
+    x=x*i
+print("summylist:",sum)
+print("muliply my list:",x)
+i=i+1
+.........................................................................
+
+
+
+
